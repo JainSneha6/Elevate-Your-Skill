@@ -12,6 +12,7 @@ from dotenv import load_dotenv
 import pymongo
 from werkzeug.exceptions import NotFound
 from gtts import gTTS
+import sys
 
 load_dotenv()
 
