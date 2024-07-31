@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import styles from './Signup.module.css';
-import {useNavigate} from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const Signup = () => {
     const [form, setForm] = useState({
@@ -22,7 +22,7 @@ const Signup = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            await axios.post('http://localhost:5000/signup', form);
+            await axios.post('https://elevate-your-skill.onrender.com/signup', form);
             alert('Signed up successfully');
             navigate('/information')
         } catch (error) {
@@ -33,7 +33,7 @@ const Signup = () => {
     return (
         <div className={styles.container}>
             <form className={styles.form} onSubmit={handleSubmit}>
-            <h2 className={styles.title}>Sign Up</h2>
+                <h2 className={styles.title}>Sign Up</h2>
                 <div className={styles.field}>
                     <label htmlFor="username" className={styles.label}>Username</label>
                     <input
@@ -59,7 +59,7 @@ const Signup = () => {
                 <button type="submit" className={styles.button}>Sign Up</button>
             </form>
             <div className={styles.imageContainer}>
-                <img src="Graduates.webp" alt="Intro img" className={styles.image}/>
+                <img src="Graduates.webp" alt="Intro img" className={styles.image} />
             </div>
         </div>
     );

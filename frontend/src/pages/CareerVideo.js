@@ -13,7 +13,7 @@ const CareerVideo = ({ username }) => {
             setError('');
 
             try {
-                const response = await axios.post('http://localhost:5000/create-video', { username }, { responseType: 'blob' });
+                const response = await axios.post('https://elevate-your-skill.onrender.com/create-video', { username }, { responseType: 'blob' });
                 const videoBlob = new Blob([response.data], { type: 'video/mp4' });
                 const videoUrl = URL.createObjectURL(videoBlob);
                 setVideoUrl(videoUrl);

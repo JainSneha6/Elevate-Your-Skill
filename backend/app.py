@@ -17,7 +17,7 @@ load_dotenv()
 
 # Flask setup
 app = Flask(__name__)
-CORS(app, supports_credentials=True)
+CORS(app, supports_credentials=True, origins=["http://localhost:3000"]) 
 client = pymongo.MongoClient(os.getenv('URL'))
 db = client['usersdb']
 app.config['VIDEO_FOLDER'] = 'question_videos'

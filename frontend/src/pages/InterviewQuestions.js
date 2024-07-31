@@ -18,7 +18,7 @@ const InterviewQuestions = ({ username }) => {
             setLoading(true);
             setError('');
             try {
-                const response = await axios.post('http://localhost:5000/get-next-question', { username, currentIndex }, { responseType: 'blob' });
+                const response = await axios.post('https://elevate-your-skill.onrender.com/get-next-question', { username, currentIndex }, { responseType: 'blob' });
                 const videoUrl = URL.createObjectURL(response.data);
                 setVideoUrl(videoUrl);
                 setCurrentIndex(currentIndex + 1);
@@ -37,9 +37,9 @@ const InterviewQuestions = ({ username }) => {
         setLoading(true);
         setError('');
         try {
-            const response = await axios.post('http://localhost:5000/submit-answer', { answer });
+            const response = await axios.post('https://elevate-your-skill.onrender.com/submit-answer', { answer });
             setFeedback(response.data.feedback);
-            setIsNextQuestionReady(true); 
+            setIsNextQuestionReady(true);
         } catch (error) {
             setError('Failed to submit the answer.');
         }
@@ -50,7 +50,7 @@ const InterviewQuestions = ({ username }) => {
         setLoading(true);
         setError('');
         try {
-            const nextVideoResponse = await axios.post('http://localhost:5000/get-next-question', { username, currentIndex }, { responseType: 'blob' });
+            const nextVideoResponse = await axios.post('https://elevate-your-skill.onrender.com/get-next-question', { username, currentIndex }, { responseType: 'blob' });
             const videoUrl = URL.createObjectURL(nextVideoResponse.data);
             setVideoUrl(videoUrl);
             setCurrentIndex(currentIndex + 1); // Increment index for next question
@@ -110,16 +110,16 @@ const InterviewQuestions = ({ username }) => {
                     <h2 className={styles.heading}>Your Interview Question</h2>
                     <video src={videoUrl} controls />
                     <div className={styles.buttonContainer}>
-                        <button 
-                            className={styles.startBtn} 
-                            onClick={startRecognition} 
+                        <button
+                            className={styles.startBtn}
+                            onClick={startRecognition}
                             disabled={recognizing}
                         >
                             {recognizing ? 'Listening...' : 'Start Voice Input'}
                         </button>
-                        <button 
-                            className={styles.stopBtn} 
-                            onClick={stopRecognition} 
+                        <button
+                            className={styles.stopBtn}
+                            onClick={stopRecognition}
                             disabled={!recognizing}
                         >
                             Stop Voice Input

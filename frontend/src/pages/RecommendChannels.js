@@ -12,7 +12,7 @@ const RecommendChannels = ({ username }) => {
     useEffect(() => {
         const fetchChannels = async () => {
             try {
-                const response = await axios.post('http://localhost:5000/recommend-channels', { username });
+                const response = await axios.post('https://elevate-your-skill.onrender.com/recommend-channels', { username });
                 const fetchedChannels = response.data.channels.map(channel => ({
                     ...channel,
                     description: channel.description || 'No description available.' // Use default description if none
