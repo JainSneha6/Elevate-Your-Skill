@@ -10,3 +10,4 @@ python-dotenv==1.0.0
 google-generativeai
 gtts==2.2.3
 pymongo==4.1.0
+Flask-PyMongo==2.3.0
