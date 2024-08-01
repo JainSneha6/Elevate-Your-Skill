@@ -4,6 +4,7 @@ from flask_pymongo import PyMongo
 from werkzeug.security import generate_password_hash, check_password_hash
 from moviepy.editor import VideoFileClip, AudioFileClip, concatenate_videoclips
 import os
+import sys 
 import google.generativeai as genai
 from PIL import Image
 import regex as re
@@ -12,7 +13,6 @@ from dotenv import load_dotenv
 import pymongo
 from werkzeug.exceptions import NotFound
 from gtts import gTTS
-import sys
 
 load_dotenv()
 
