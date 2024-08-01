@@ -13,12 +13,20 @@ from dotenv import load_dotenv
 import pymongo
 from werkzeug.exceptions import NotFound
 from gtts import gTTS
+import logging
+
+# Setup logging
+logging.basicConfig(level=logging.DEBUG)
 
 load_dotenv()
 
 # Flask setup
 app = Flask(__name__)
 CORS(app, supports_credentials=True, origins=["http://localhost:3000"]) 
+
+# Logging environment variables
+logging.debug(f"Environment Variables: URL={os.getenv('URL')}, API_KEY={os.getenv('API_KEY')}, SEARCH_API_KEY={os.getenv('SEARCH_API_KEY')}")
+
 client = pymongo.MongoClient(os.getenv('URL'))
 db = client['usersdb']
 app.config['VIDEO_FOLDER'] = 'question_videos'
