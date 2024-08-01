@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "app.py",
+      "use": "@vercel/python",
+      "config": {
+        "installCommand": "pip install -r requirements.txt"
+      }
+    },
+    {
+      "src": "src/index.js",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/src/index.js" }
+  ]
+}

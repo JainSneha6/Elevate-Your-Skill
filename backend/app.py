@@ -1,9 +1,10 @@
+import os
+import sys
 from flask import Flask, request, jsonify, send_file
 from flask_cors import CORS
 from flask_pymongo import PyMongo
 from werkzeug.security import generate_password_hash, check_password_hash
 from moviepy.editor import VideoFileClip, AudioFileClip, concatenate_videoclips
-import pyttsx3
 import os
 import google.generativeai as genai
 from PIL import Image
@@ -12,12 +13,17 @@ from googleapiclient.discovery import build
 from dotenv import load_dotenv
 import pymongo
 from werkzeug.exceptions import NotFound
+from gtts import gTTS
 
 load_dotenv()
 
 # Flask setup
 app = Flask(__name__)
 CORS(app, supports_credentials=True, origins=["http://localhost:3000"]) 
+
+# Logging environment variables
+logging.debug(f"Environment Variables: URL={os.getenv('URL')}, API_KEY={os.getenv('API_KEY')}, SEARCH_API_KEY={os.getenv('SEARCH_API_KEY')}")
+
 client = pymongo.MongoClient(os.getenv('URL'))
 db = client['usersdb']
 app.config['VIDEO_FOLDER'] = 'question_videos'
