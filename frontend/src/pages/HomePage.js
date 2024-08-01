@@ -7,8 +7,10 @@ function HomePage({ username }) {
     const [hasAnimated, setHasAnimated] = useState(false);
 
     useEffect(() => {
+        // Check if the animation has already been played
         const animated = localStorage.getItem('hasAnimated');
         if (!animated) {
+            // Set a flag in localStorage so the animation only plays once
             localStorage.setItem('hasAnimated', 'true');
         } else {
             setHasAnimated(true);

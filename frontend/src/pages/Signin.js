@@ -22,8 +22,8 @@ const Signin = ({ login }) => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('https://elevate-your-skill.onrender.com/login', form, {
-                withCredentials: true,
+            const response = await axios.post('http://localhost:5000/login', form,{
+                withCredentials: true, 
             });
             if (response.status === 200) {
                 login();
@@ -38,7 +38,7 @@ const Signin = ({ login }) => {
     return (
         <div className={styles.container}>
             <form className={styles.form} onSubmit={handleSubmit}>
-                <h2 className={styles.title}>Sign In</h2>
+            <h2 className={styles.title}>Sign In</h2>
                 <div className={styles.field}>
                     <label htmlFor="username" className={styles.label}>Userame</label>
                     <input
@@ -64,7 +64,7 @@ const Signin = ({ login }) => {
                 <button type="submit" className={styles.button}>Sign In</button>
             </form>
             <div className={styles.imageContainer}>
-                <img src="Graduates.webp" alt="Intro img" className={styles.image} />
+                <img src="Graduates.webp" alt="Intro img" className={styles.image}/>
             </div>
         </div>
     );

@@ -33,9 +33,9 @@ const Information = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    
     try {
-      const response = await fetch('https://elevate-your-skill.onrender.com/update-profile', {
+      const response = await fetch('http://localhost:5000/update-profile', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
