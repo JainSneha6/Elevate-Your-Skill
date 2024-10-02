@@ -13,6 +13,15 @@ Elevate Your Skill is built using React for the frontend and Flask for the backe
 - **Personalized Learning Path**: Recommends YouTube channels, text resources, and online courses tailored to the user’s career interests and skills.
 - **Profile Management**: Users can update their profile with information such as education, skills, interests, and employment status.
 
+## Tech Stack
+
+| Frontend | Backend | Video Generation | APIs | Database |
+| --- | --- | --- | --- | --- |
+| ![React](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg) | ![Flask](https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg) | ![MoviePy](https://raw.githubusercontent.com/Zulko/moviepy/master/logo/logo_green_square.png) | ![Gemini API](https://gemini.com/assets/logos/gemini-logo-dark-blue-8712f7c998dc8b230b6454df7ffda65e.svg) | ![MySQL](https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg) |
+| ![CSS](https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg) | ![Python](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg) | ![Pillow](https://pillow.readthedocs.io/en/stable/_static/pillow-logo.png) | ![YouTube API](https://upload.wikimedia.org/wikipedia/commons/7/75/YouTube_social_white_square_%282017%29.svg) |  |
+| ![Axios](https://axios-http.com/assets/logo.svg) |  | ![pytx3](https://pytx3.readthedocs.io/en/stable/_static/pyttsx3.png) |
+
+
 ## Preview of the Website
 
 ![image](https://github.com/user-attachments/assets/9e4d6ac2-64f1-4ce4-98f9-2fbd20da5d00)
