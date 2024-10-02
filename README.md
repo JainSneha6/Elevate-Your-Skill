@@ -4,15 +4,17 @@ Welcome to Elevate Your Skill! This project provides tools to help users explore
 
 ## Index
 
-1. [About the Project](#about-the-project)
-2. [Features](#features)
-3. [Tech Stack](#tech-stack)
-5. [Preview of the Website](#preview-of-the-website)
-6. [Project Structure](#project-structure)
-7. [Getting Started](#getting-started)
-8. [Demo Video](#demo-video)
-9. [Contributing](#contributing)
-10. [Contact](#contact)
+| Section                   | Link                                      |
+|---------------------------|-------------------------------------------|
+| About the Project         | [About the Project](#about-the-project)  |
+| Features                  | [Features](#features)                    |
+| Tech Stack                | [Tech Stack](#tech-stack)                |
+| Preview of the Website    | [Preview of the Website](#preview-of-the-website) |
+| Project Structure         | [Project Structure](#project-structure)  |
+| Getting Started           | [Getting Started](#getting-started)      |
+| Demo Video                | [Demo Video](#demo-video)                |
+| Contributing              | [Contributing](#contributing)            |
+| Contact                   | [Contact](#contact)                      |
 
 ## About the Project
 
