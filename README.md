@@ -18,23 +18,16 @@ Elevate Your Skill is built using React for the frontend and Flask for the backe
 # Project Overview
 
 **Frontend**:  
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)  
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
-![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)  
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)  ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)  ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)  
 
 **Backend**:  
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)  
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)  ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 **Video Generation**:  
-![MoviePy](https://img.shields.io/badge/MoviePy-3776AB?style=for-the-badge&logo=python&logoColor=white)  
-![Pillow](https://img.shields.io/badge/Pillow-3776AB?style=for-the-badge&logo=python&logoColor=white)  
-![PyTTSx3](https://img.shields.io/badge/pyttsx3-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![MoviePy](https://img.shields.io/badge/MoviePy-3776AB?style=for-the-badge&logo=python&logoColor=white)  ![Pillow](https://img.shields.io/badge/Pillow-3776AB?style=for-the-badge&logo=python&logoColor=white)  ![PyTTSx3](https://img.shields.io/badge/pyttsx3-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 **API**:  
-![Gemini API](https://img.shields.io/badge/Gemini-00DCFA?style=for-the-badge&logo=gemini&logoColor=white)  
-![Youtube API](https://img.shields.io/badge/Youtube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)  
-![Google API](https://img.shields.io/badge/Google-4285F4?style=for-the-badge&logo=google&logoColor=white)  
+![Gemini API](https://img.shields.io/badge/Gemini-00DCFA?style=for-the-badge&logo=gemini&logoColor=white)  ![Youtube API](https://img.shields.io/badge/Youtube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)  ![Google API](https://img.shields.io/badge/Google-4285F4?style=for-the-badge&logo=google&logoColor=white)  
 
 **Database**:  
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
