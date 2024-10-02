@@ -2,6 +2,18 @@
 
 Welcome to Elevate Your Skill! This project provides tools to help users explore career paths, enhance interview skills, and access personalized learning resources.
 
+## Index
+
+1. [About the Project](#about-the-project)
+2. [Features](#features)
+3. [Tech Stack](#tech-stack)
+5. [Preview of the Website](#preview-of-the-website)
+6. [Project Structure](#project-structure)
+7. [Getting Started](#getting-started)
+8. [Demo Video](#demo-video)
+9. [Contributing](#contributing)
+10. [Contact](#contact)
+
 ## About the Project
 
 Elevate Your Skill is built using React for the frontend and Flask for the backend. It offers various features like personalized career report videos, mock interview sessions, and learning resource recommendations based on user profiles. The platform helps users identify career strengths and weaknesses, improve interview performance, and discover new resources for personal and professional growth.
@@ -14,8 +26,6 @@ Elevate Your Skill is built using React for the frontend and Flask for the backe
 - **Profile Management**: Users can update their profile with information such as education, skills, interests, and employment status.
 
 ## Tech Stack
-
-# Project Overview
 
 **Frontend**:  
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)  ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)  ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)  
