@@ -15,11 +15,30 @@ Elevate Your Skill is built using React for the frontend and Flask for the backe
 
 ## Tech Stack
 
-| Frontend | Backend | Video Generation | APIs | Database |
-| --- | --- | --- | --- | --- |
-| ![React](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg) | ![Flask](https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg) | ![MoviePy](https://raw.githubusercontent.com/Zulko/moviepy/master/logo/logo_green_square.png) | ![Gemini API](https://gemini.com/assets/logos/gemini-logo-dark-blue-8712f7c998dc8b230b6454df7ffda65e.svg) | ![MySQL](https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg) |
-| ![CSS](https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg) | ![Python](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg) | ![Pillow](https://pillow.readthedocs.io/en/stable/_static/pillow-logo.png) | ![YouTube API](https://upload.wikimedia.org/wikipedia/commons/7/75/YouTube_social_white_square_%282017%29.svg) |  |
-| ![Axios](https://axios-http.com/assets/logo.svg) |  | ![pytx3](https://pytx3.readthedocs.io/en/stable/_static/pyttsx3.png) |
+# Project Overview
+
+**Frontend**:  
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)  
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)  
+
+**Backend**:  
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)  
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+**Video Generation**:  
+![MoviePy](https://img.shields.io/badge/MoviePy-3776AB?style=for-the-badge&logo=python&logoColor=white)  
+![Pillow](https://img.shields.io/badge/Pillow-3776AB?style=for-the-badge&logo=python&logoColor=white)  
+![PyTTSx3](https://img.shields.io/badge/pyttsx3-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+**API**:  
+![Gemini API](https://img.shields.io/badge/Gemini-00DCFA?style=for-the-badge&logo=gemini&logoColor=white)  
+![Youtube API](https://img.shields.io/badge/Youtube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)  
+![Google API](https://img.shields.io/badge/Google-4285F4?style=for-the-badge&logo=google&logoColor=white)  
+
+**Database**:  
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
 
 
 ## Preview of the Website
