@@ -94,7 +94,7 @@ To run Elevate Your Skill locally, follow these steps:
 
 ## Demo Video
 
-
+https://github.com/user-attachments/assets/57008427-f131-4f51-8a81-fe0ad73d0b5a
 
 
 ## Contributing
